@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEATER|HUB 2025 – Best English Hack</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{background:#000;color:#fff;font-family:'Courier New',monospace;overflow-y:auto;overflow-x:hidden;min-height:100vh;}
+        nav{position:fixed;top:0;width:100%;background:rgba(0,0,0,0.98);border-bottom:3px solid #fff;padding:18px 0;z-index:999;text-align:center;box-shadow:0 0 30px #fff;}
+        nav a{color:#fff;text-decoration:none;margin:0 70px;font-size:2rem;text-transform:uppercase;letter-spacing:10px;transition:.4s;cursor:pointer;}
+        nav a:hover,nav a.active{color:#fff;text-shadow:0 0 50px #fff;transform:scale(1.3);}
+        .lang-switch{position:fixed;top:20px;right:20px;z-index:1000;}
+        .lang-switch button{background:transparent;border:2px solid #fff;color:#fff;padding:8px 15px;margin:0 5px;cursor:pointer;font-size:1rem;transition:.3s;}
+        .lang-switch button:hover,.lang-switch button.active{border-color:#0f0;color:#0f0;box-shadow:0 0 20px #0f0;}
+        .reveal{opacity:0;transform:translateY(60px);transition:all 1.4s ease-out;}
+        .reveal.active{opacity:1;transform:translateY(0);}
+        .content{display:none;padding:20vh 20px 300px;text-align:center;position:relative;z-index:10;}
+        .content.active{display:block;}
+        h1{font-size:9rem;letter-spacing:25px;text-shadow:0 0 100px #fff;animation:pulse 4s infinite;color:#fff;}
+        @keyframes pulse{0%,100%{text-shadow:0 0 70px #fff}50%{text-shadow:0 0 150px #fff}}
+        .subtitle{font-size:3rem;margin:40px 0;color:#fff;}
+        .blink{animation:b 0.8s infinite;}@keyframes b{50%{opacity:0;}}
+        .btn{display:inline-block;margin:25px;padding:24px 90px;font-size:2.8rem;background:transparent;border:3px solid #fff;color:#fff;cursor:pointer;transition:.5s;box-shadow:0 0 60px #fff;letter-spacing:10px;text-transform:uppercase;}
+        .btn:hover{background:rgba(255,255,255,0.15);transform:scale(1.15);box-shadow:0 0 120px #fff;}
+        #vip{display:none;background:rgba(0,0,0,0.97);padding:100px 40px;position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999;overflow-y:auto;}
+        #vip.active{display:block;}
+        .close-vip{position:absolute;top:30px;right:40px;font-size:4rem;color:#fff;cursor:pointer;}
+        .discord-box{margin:70px auto;padding:35px;background:rgba(255,255,255,0.08);border:2px solid #fff;border-radius:15px;width:420px;box-shadow:0 0 60px #fff;text-align:center;}
+        footer{position:fixed;bottom:20px;left:0;width:100%;text-align:center;z-index:100;color:#444;font-size:1.2rem;letter-spacing:5px;text-shadow:0 0 15px #fff;}
+    </style>
+</head>
+<body oncontextmenu="return false">
+
+    <!-- Přepínač jazyků -->
+    <div class="lang-switch">
+        <button class="active" onclick="setLang('en')">EN</button>
+        <button onclick="setLang('cs')">CZ</button>
+        <button onclick="setLang('ru')">RU</button>
+    </div>
+
+    <nav>
+        <a class="active" data-page="home" data-key="nav_home">HOME</a>
+        <a data-page="contact" data-key="nav_discord">DISCORD</a>
+    </nav>
+
+    <!-- HOME -->
+    <div id="home" class="content active">
+        <h1 class="reveal">CHEATER|HUB</h1>
+        <p class="subtitle reveal" data-key="subtitle">BEST ENGLISH HACK 2025 <span class="blink">_</span></p>
+        <div class="btn reveal" onclick="checkKey()" data-key="vip_btn">VIP ACCESS</div>
+
+        <div class="reveal discord-box">
+            <h3 data-key="discord_title">DISCORD SERVER</h3>
+            <p><a href="https://discord.gg/7eYgQeuj" target="_blank" style="color:#fff;text-decoration:none;font-size:1.9rem;">discord.gg/7eYgQeuj</a></p>
+            <p id="members">Loading members...</p>
+            <p style="margin-top:15px;color:#0f0;font-size:1.4rem;" data-key="join_elite">Join the elite!</p>
+        </div>
+    </div>
+
+    <!-- DISCORD PAGE -->
+    <div id="contact" class="content">
+        <h1 class="reveal" data-key="nav_discord">DISCORD</h1>
+        <a href="https://discord.gg/7eYgQeuj" target="_blank"><div class="btn reveal" data-key="join_server">JOIN SERVER</div></a>
+        <div class="reveal discord-box" style="margin-top:70px;">
+            <p><a href="https://discord.gg/7eYgQeuj" target="_blank" style="color:#fff;text-decoration:none;font-size:1.9rem;">discord.gg/7eYgQeuj</a></p>
+            <p id="members2">Loading members...</p>
+        </div>
+    </div>
+
+    <!-- VIP ZONE -->
+    <div id="vip">
+        <span class="close-vip" onclick="document.getElementById('vip').classList.remove('active')">X</span>
+        <h1 style="font-size:10rem;color:#fff;">VIP ZONE</h1>
+        <p style="font-size:4.5rem;margin:60px 0;color:#fff;" data-key="vip_welcome">Welcome, king!</p>
+        <div class="btn" onclick="copy('VIP SCRIPT')" data-key="vip_script">VIP SCRIPT #1</div>
+        <div class="btn" onclick="copy('GOD MODE')" data-key="god_mode">GOD MODE</div>
+        <div class="btn" onclick="copy('INFINITE ROBUX')" data-key="inf_robux">INFINITE ROBUX</div>
+        <p style="margin-top:100px;font-size:2rem;color:#0f0;" data-key="only_legends">Only legends see this</p>
+    </div>
+
+    <footer>© 2025 CHEATER|HUB – Best English Hack</footer>
+
+    <script>
+        // Překlady
+        const lang = {
+            en: {
+                nav_home: "HOME",
+                nav_discord: "DISCORD",
+                subtitle: "BEST ENGLISH HACK 2025",
+                vip_btn: "VIP ACCESS",
+                discord_title: "DISCORD SERVER",
+                join_elite: "Join the elite!",
+                join_server: "JOIN SERVER",
+                vip_welcome: "Welcome, king!",
+                vip_script: "VIP SCRIPT #1",
+                god_mode: "GOD MODE",
+                inf_robux: "INFINITE ROBUX",
+                only_legends: "Only legends see this"
+            },
+            cs: {
+                nav_home: "DOMŮ",
+                nav_discord: "DISCORD",
+                subtitle: "NEJLEPŠÍ ANGLICKÝ CHEAT 2025",
+                vip_btn: "VIP PŘÍSTUP",
+                discord_title: "DISCORD SERVER",
+                join_elite: "Přidej se mezi elitu!",
+                join_server: "PŘIPOJIT SE",
+                vip_welcome: "Vítej, králi!",
+                vip_script: "VIP SKRIPT #1",
+                god_mode: "GOD MODE",
+                inf_robux: "NEKONEČNÉ ROBUXY",
+                only_legends: "Tohle vidí jen legendy"
+            },
+            ru: {
+                nav_home: "ГЛАВНАЯ",
+                nav_discord: "ДИСКОРД",
+                subtitle: "ЛУЧШИЙ АНГЛИЙСКИЙ ЧИТ 2025",
+                vip_btn: "VIP ДОСТУП",
+                discord_title: "СЕРВЕР DISCORD",
+                join_elite: "Присоединяйся к элите!",
+                join_server: "ПРИСОЕДИНИТЬСЯ",
+                vip_welcome: "Добро пожаловать, король!",
+                vip_script: "VIP СКРИПТ #1",
+                god_mode: "ГОД МОД",
+                inf_robux: "БЕСКОНЕЧНЫЕ РОБУКСЫ",
+                only_legends: "Это видят только легенды"
+            }
+        };
+
+        function setLang(l) {
+            document.querySelectorAll('[data-key]').forEach(el => {
+                const key = el.getAttribute('data-key');
+                if (lang[l] && lang[l][key]) {
+                    el.innerHTML = el.tagName === 'DIV' && el.classList.contains('btn') 
+                        ? lang[l][key] 
+                        : lang[l][key] + (el.querySelector('.blink') ? ' <span class="blink">_</span>' : '');
+                }
+            });
+            document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.lang-switch button[onclick="setLang('${l}')"]`).classList.add('active');
+            document.documentElement.lang = l;
+        }
+
+        // Scroll animace
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver(e => e.forEach(en => { if (en.isIntersecting) en.target.classList.add('active'); }), {threshold: 0.2});
+        reveals.forEach(el => observer.observe(el));
+
+        // Přepínání stránek
+        document.querySelectorAll('nav a').forEach(a => {
+            a.onclick = () => {
+                document.querySelectorAll('nav a').forEach(x => x.classList.remove('active'));
+                document.querySelectorAll('.content').forEach(x => x.classList.remove('active'));
+                a.classList.add('active');
+                document.getElementById(a.dataset.page).classList.add('active');
+            };
+        });
+
+        // Počet členů
+        function updateMembers() {
+            fetch('https://discord.com/api/v10/invites/7eYgQeuj?with_counts=true')
+                .then(r => r.json())
+                .then(data => {
+                    const total = data.approximate_member_count || '???';
+                    const online = data.approximate_presence_count || '???';
+                    document.getElementById('members').innerHTML = `Total members: <b>${total}</b><br>Online now: <b>${online}</b>`;
+                    document.getElementById('members2').innerHTML = `Members: <b>${total}</b> • Online: <b>${online}</b>`;
+                })
+                .catch(() => {
+                    document.getElementById('members').innerHTML = 'Members: <b>500+</b>';
+                    document.getElementById('members2').innerHTML = 'Members: <b>500+</b>';
+                });
+        }
+        updateMembers();
+        setInterval(updateMembers, 30000);
+
+        function checkKey() {
+            const key = prompt('Enter VIP key:','');
+            if (key === 'Mysttic') document.getElementById('vip').classList.add('active');
+            else alert('Wrong key');
+        }
+
+        function copy(t) {
+            navigator.clipboard.writeText(t);
+            alert('Copied: ' + t);
+        }
+    </script>
+</body>
+</html>
